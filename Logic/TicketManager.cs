@@ -25,10 +25,13 @@ DETALLES:
 CANCIÓN: {cancion.Cancion}
 AUTOR: {cancion.Autor}
 ------------------------------------------
-¡Cueva de la Música - V2!
+¡Cueva de la Música - V2! 
 ==========================================";
 
-File.WriteAllText(nombreArchivo, contenido);
+
+
+
+File.AppendAllText(nombreArchivo, contenido);
 Console.ForegroundColor = ConsoleColor.Yellow;
 Console.WriteLine($"\n[TICKET] Generado en: {nombreArchivo}");
 Console.ResetColor();
