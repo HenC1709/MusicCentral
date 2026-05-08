@@ -15,6 +15,7 @@ namespace Canciones.UI
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("==== BIENVENIDO A LA CUEVA DE LA MUSICA! ====");
                 Console.WriteLine("2. Buscar Musica");
+                Console.WriteLine("3. Lista de canciones");
 
                 if (usuario.Rol == Rol.Admin)
                 {

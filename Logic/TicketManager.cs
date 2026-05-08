@@ -13,28 +13,24 @@ namespace Canciones.Logic
             if (!Directory.Exists(carpeta)) Directory.CreateDirectory(carpeta);
 
             // nombre unico usando solo fecha y hora
-            string nombreArchivo = Path.Combine(carpeta, $"Ticket_{DateTime.Now:yyyyMMdd_HHmmss}.txt");
-            string contenido = $@"
+            string rutaArchivo = Path.Combine(carpeta, "Reporte_General.txt");
+
+    string contenido = $@"
 ==========================================
-    REPORTE DE NUEVA CANCIÓN
+        NUEVO REGISTRO DETECTADO
 ==========================================
 FECHA: {DateTime.Now:dd/MM/yyyy HH:mm:ss}
-REGISTRADO POR: {usuarioNombre}
-------------------------------------------
-DETALLES:
-CANCIÓN: {cancion.Cancion}
+USUARIO: {usuarioNombre}
+CANCION: {cancion.Cancion}
 AUTOR: {cancion.Autor}
 ------------------------------------------
-¡Cueva de la Música - V2! 
-==========================================";
+"; // Dejamos un espacio al final para que el siguiente no pegue pegado
 
-
-
-
-File.AppendAllText(nombreArchivo, contenido);
-Console.ForegroundColor = ConsoleColor.Yellow;
-Console.WriteLine($"\n[TICKET] Generado en: {nombreArchivo}");
-Console.ResetColor();
-        }
-    }
-}
+    // LA MAGIA: Append en lugar de Write
+    File.AppendAllText(rutaArchivo, contenido);
+    
+    Console.ForegroundColor = ConsoleColor.Yellow;
+    Console.WriteLine($"\n[SISTEMA] Registro añadido al reporte general.");
+    Console.ResetColor();
+ }  
+ } }
