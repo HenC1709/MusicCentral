@@ -8,23 +8,25 @@ namespace Canciones.Services
         // La ruta hacia tu carpeta de datos protegida
         private string ruta = Path.Combine("Data", "BaseDeUsuarios.json");
 
-        public Usuario iniciarSesion()
+        public Usuario? iniciarSesion()
         {
-            Console.ForegroundColor = ConsoleColor.DarkRed;
-          Console.WriteLine("Tienes cuenta (S/N)");
-          string respuesta = Console.ReadLine()!.ToUpper();
-          if (respuesta == "N" )
-            {
-                Usuario user = new Usuario();
-                user.Registro();
-                Console.WriteLine("Gracias por registrarse! ");
-            }
-        
+            Console.Clear();
             Console.ForegroundColor = ConsoleColor.Magenta;
             Console.WriteLine("======================================");
             Console.WriteLine("     🌸 MUSICA CENTRAL LOGIN 🌸      ");
             Console.WriteLine("======================================");
             Console.ResetColor();
+
+            Console.WriteLine("1. inciar Sesión");
+            Console.WriteLine("2. Registro");
+            Console.Write("\nSelecione una opción: ");
+            string opcion = Console.ReadLine()!;
+            if ( opcion == "2")
+            {
+                Usuario nuevo = new Usuario();
+                nuevo.Registro();
+                return null; // retornamos un null para entrar al main:)
+            }
 
             Console.ForegroundColor = ConsoleColor.Blue;
             Console.Write("\n➤ Nombre de Usuario: ");
@@ -34,55 +36,31 @@ namespace Canciones.Services
              Console.Write("➤ ID de Acceso: ");
             string contra = Console.ReadLine()?.Trim() ?? "";
 
-            if (!File.Exists(ruta))
-            {
-                Console.WriteLine("\n[!] No hay base de datos de usuarios. Regístrate primero.");
-                Thread.Sleep(2000);
-                return null!;
-            }
+            if (!File.Exists(ruta)) return null;
 
-            try 
+              try 
             {
                 string contenido = File.ReadAllText(ruta);
                 var listaUsuarios = JsonSerializer.Deserialize<List<Usuario>>(contenido);
+                var user = listaUsuarios?.FirstOrDefault(u => u.Nombre.Equals(nombre, StringComparison.OrdinalIgnoreCase));
 
-                if (listaUsuarios == null) return null!;
-
-                // Buscamos al usuario
-                var user = listaUsuarios.FirstOrDefault(u => u.Nombre.ToLower() == nombre.ToLower());
-
-                if (user != null)
+                if (user != null && user.ID == contra)
                 {
-                    if (user.ID == contra)
-                    {
                         Console.ForegroundColor = ConsoleColor.Green;
                         Console.WriteLine($"\n[OK] ¡Acceso concedido! Bienvendo, {user.Nombre}.");
-                        Console.ResetColor();
                         Thread.Sleep(1200);
                         return user;
-                    }
-                    else
-                    {
-                        Console.ForegroundColor = ConsoleColor.Red;
-                        Console.WriteLine("\n[X] ID incorrecto.");
-                    }
                 }
-                else
-                {
-                    Console.ForegroundColor = ConsoleColor.Yellow;
-                    Console.WriteLine("\n[X] El usuario no existe.");
-                }
-            }
+                 Console.ForegroundColor = ConsoleColor.DarkRed;
+              Console.WriteLine("\n[X] Datos incorrectos o usuario inexistente.");
+           }
             catch (Exception ex)
             {
-                Console.WriteLine("Error al leer la base de datos: " + ex.Message);
+                Console.WriteLine("Error: " + ex.Message);
             }
 
-            Console.ResetColor();
-            Console.WriteLine("Presiona cualquier tecla para reintentar...");
-            Console.ReadKey();
+            Thread.Sleep(1500);
             return null!;
         }
     }
-
-}
+ }
