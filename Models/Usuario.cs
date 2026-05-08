@@ -2,9 +2,9 @@ using System.Text.Json;
 using System.IO;
 using System.Dynamic;
 using System.Runtime.InteropServices.Marshalling;
-namespace MiProyecto;
-
-public enum Rol
+namespace Canciones.Models
+{
+    public enum Rol
 {
     Usuario,
 
@@ -18,7 +18,7 @@ public class Usuario
     // como usar json para listas
 public void GuardarUsuario(Usuario NuevoUsuario)
     {
-        string ruta = "BaseDeUsuarios.json";
+        string ruta = Path.Combine("Data", "BaseDeUsuarios.json");
         List<Usuario> ListaActual = new List<Usuario>();
       //1.  si el archivo existe se lee de una vez 
         if (File.Exists(ruta))
@@ -43,7 +43,7 @@ public void GuardarUsuario(Usuario NuevoUsuario)
 // nueva referencia para ver usuarios en JSON
     public static void VerUsuarios()
     {
-        string ruta = "BaseDeUsuarios.json";
+        string ruta = Path.Combine("Data", "BaseDeUsuarios.json");
         if (File.Exists(ruta))
         {
             string contenido = File.ReadAllText(ruta); // este solo lee, no modifica
@@ -106,3 +106,5 @@ public void GuardarUsuario(Usuario NuevoUsuario)
         return true;
     }
 }
+}
+

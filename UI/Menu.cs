@@ -1,6 +1,9 @@
-using System;
 
-namespace MiProyecto;
+using Canciones.Models;
+
+
+namespace Canciones.UI
+{
 class Menu
 {
     public void Mostrar(Usuario usuario)
@@ -26,4 +29,5 @@ class Menu
         Console.ForegroundColor = ConsoleColor.Cyan;
         Console.WriteLine("\n Selecciona una opcion we");
     }
+}
 }

@@ -1,8 +1,9 @@
-using System;
-using System.Collections.Generic;
+using Canciones.Logic;
+using Canciones.Models;
 
-namespace MiProyecto;
-class Agregar
+namespace Canciones.Services
+{
+    class Agregar
 {
     public void AgregarMusica(Musica nuevaCancion)
     {
@@ -14,4 +15,5 @@ class Agregar
         Console.WriteLine("Cancion agregada exitosamente");       
     }
 
+}
 }

@@ -1,6 +1,7 @@
-﻿using System;
-
-namespace MiProyecto;
+﻿using Canciones.Logic;
+using Canciones.Models;
+using Canciones.Services;
+using Canciones.UI;
 class Program
 {
     static void Main()

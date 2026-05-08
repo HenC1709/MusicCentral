@@ -1,18 +1,19 @@
-using System;
+using Canciones.Logic;
 using System.Text.Json;
-using System.IO;
-using System.Collections.Generic;
 
 
-namespace MiProyecto;
-class Musica
+
+namespace Canciones.Models
+{
+    class Musica
 {
     public string Cancion { get; set; } = "";
     public string Autor { get; set; } = "";
+    private DateTime FechaDeIngreso { get; set; }
 
  public static void GuardarCanciones(Musica NuevaCancion)
     {
-        string ruta = "CancionesAgregadas.json";
+        string ruta = Path.Combine("Data", "CancionesAgregadas.json");
         List<Musica> lista = new List<Musica>();
         if (File.Exists(ruta))
         {
@@ -32,7 +33,7 @@ class Musica
     }
     public static void CargarDatos()
     {
-        string ruta = "CancionesAgregadas.json";
+       string ruta = Path.Combine("Data", "CancionesAgregadas.json");
         if (File.Exists(ruta))
         {
             string contenido = File.ReadAllText(ruta);
@@ -44,13 +45,15 @@ class Musica
     {
         Cancion = cancion;
         Autor = autor;
+        FechaDeIngreso = DateTime.Now;
     }
 
     public override string ToString()
     {
         Console.ForegroundColor = ConsoleColor.DarkRed;
-        return $"{Cancion} - {Autor}";
+        return $"{Cancion} - {Autor} - {FechaDeIngreso.ToLongTimeString()}";
     }
  
 }
    
+}

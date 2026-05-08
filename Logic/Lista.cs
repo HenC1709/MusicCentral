@@ -1,9 +1,8 @@
-using System;
-using System.Collections.Generic;
-using System.Data;
+using Canciones.Models;
 
-namespace MiProyecto;
-class Lista
+namespace Canciones.Logic
+{
+    class Lista
 {
     public static List<Musica> Canciones = new List<Musica>();
 
@@ -27,4 +26,5 @@ class Lista
             }
         }
     }
+}
 }

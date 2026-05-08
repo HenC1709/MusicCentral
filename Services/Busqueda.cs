@@ -1,7 +1,8 @@
- using System;
+using Canciones.Logic;
 
-namespace MiProyecto;
-class Busqueda
+namespace Canciones.Services
+{
+    class Busqueda
 {
 
     public void buscar(Agregar miLista)
@@ -32,4 +33,5 @@ class Busqueda
             
     }
 
+}
 }

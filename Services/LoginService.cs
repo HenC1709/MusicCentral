@@ -1,11 +1,12 @@
 using System.Text.Json;
-using MiProyecto; // Ajusta según el namespace de tu clase Usuario
+using Canciones.Models;
 
-
-public class LoginService
+namespace Canciones.Services
+{
+    public class LoginService
     {
         // La ruta hacia tu carpeta de datos protegida
-        private string ruta = "BaseDeUsuarios.json";
+        private string ruta = Path.Combine("Data", "BaseDeUsuarios.json");
 
         public Usuario iniciarSesion()
         {
@@ -83,3 +84,5 @@ public class LoginService
             return null!;
         }
     }
+
+}
