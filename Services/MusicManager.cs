@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text.Json;
+using Canciones.Logic;
 using Canciones.Models;
 
 namespace Canciones.Services
@@ -35,15 +36,19 @@ namespace Canciones.Services
             string json = JsonSerializer.Serialize(Canciones, opciones);
             File.WriteAllText(ruta, json);
         }
+        
+        private TicketManager _ticket = new TicketManager();
 
-        public void AgregarMusica(string titulo, string autor)
+        public void AgregarMusica(string titulo, string autor, string nombreUsuario)
         {
             Musica nueva = new Musica(titulo, autor);
             Canciones.Add(nueva);
             GuardarDatos();
 
+            _ticket.GenerarTicket(nueva, nombreUsuario);
+
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("\nCanción agregada y guardada de forma exitosa! ");
+            Console.WriteLine("\nCanción agregada y ticket creado! ");
             Console.ResetColor();
         }
         public void BuscarMusica()

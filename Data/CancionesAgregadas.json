@@ -1,38 +1,52 @@
 [
   {
     "Cancion": "rolling in the deep",
-    "Autor": "adele"
+    "Autor": "adele",
+    "FechaDeIngreso": "2026-05-07T21:19:45.0535263-04:00"
   },
   {
     "Cancion": "Numb",
-    "Autor": "Linkin Park"
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-05-07T21:19:45.0596391-04:00"
   },
   {
     "Cancion": "faint",
-    "Autor": "Linkin park"
+    "Autor": "Linkin park",
+    "FechaDeIngreso": "2026-05-07T21:19:45.0596476-04:00"
   },
   {
     "Cancion": "7 years",
-    "Autor": "Lukas Graham"
+    "Autor": "Lukas Graham",
+    "FechaDeIngreso": "2026-05-07T21:19:45.0596491-04:00"
   },
   {
     "Cancion": "Never Forget You",
-    "Autor": "Noisettes"
+    "Autor": "Noisettes",
+    "FechaDeIngreso": "2026-05-07T21:19:45.0596507-04:00"
   },
   {
     "Cancion": "Agarra mi mano",
-    "Autor": "sean paul"
+    "Autor": "sean paul",
+    "FechaDeIngreso": "2026-05-07T21:19:45.0596549-04:00"
   },
   {
     "Cancion": "Obstacles",
-    "Autor": "Syd matter"
+    "Autor": "Syd matter",
+    "FechaDeIngreso": "2026-05-07T21:19:45.0596563-04:00"
   },
   {
     "Cancion": "i was made for love you",
-    "Autor": "KISS"
+    "Autor": "KISS",
+    "FechaDeIngreso": "2026-05-07T21:19:45.0596608-04:00"
   },
   {
     "Cancion": "Cafune",
-    "Autor": "Micro TDH"
+    "Autor": "Micro TDH",
+    "FechaDeIngreso": "2026-05-07T21:19:45.059668-04:00"
+  },
+  {
+    "Cancion": "De ellos aprendi",
+    "Autor": "David Rees",
+    "FechaDeIngreso": "2026-05-07T21:20:14.9688435-04:00"
   }
 ]

@@ -39,7 +39,7 @@ namespace Canciones.UI
                         {
                          Console.Write("Canción: "); string t = Console.ReadLine()!;
                          Console.Write("Autor: "); string a = Console.ReadLine()!;
-                         manager.AgregarMusica(t, a);
+                         manager.AgregarMusica(t, a, usuario.Nombre);
                         }
                         else {Console.WriteLine("no hay permiso "); }
                         break;
