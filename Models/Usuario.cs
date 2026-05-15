@@ -76,17 +76,17 @@ public void GuardarUsuario(Usuario NuevoUsuario)
          
         Console.ForegroundColor = ConsoleColor.Green;
         Console.WriteLine("Registro exitoso!");
-        GuardarUsuario(this);
+        
 
-        if (this.Nombre.ToLower() == "Henry")
+        if (this.Nombre.Equals("Henry", StringComparison.OrdinalIgnoreCase))
         {
             this.Rol = Rol.Admin;
         }
-
         else
         {
             this.Rol = Rol.Usuario;
         }
+        GuardarUsuario(this);
     }
 
     

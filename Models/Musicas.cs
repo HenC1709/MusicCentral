@@ -22,7 +22,6 @@ namespace Canciones.Models
 
     public override string ToString()
     {
-        Console.ForegroundColor = ConsoleColor.DarkRed;
         return $"{Cancion} - {Autor} - {FechaDeIngreso.ToLongTimeString()}";
     }
  

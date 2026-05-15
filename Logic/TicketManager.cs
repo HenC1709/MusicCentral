@@ -23,7 +23,7 @@ FECHA: {DateTime.Now:dd/MM/yyyy HH:mm:ss}
 USUARIO: {usuarioNombre}
 CANCION: {cancion.Cancion}
 AUTOR: {cancion.Autor}
-------------------------------------------
+-----------------------------------------
 "; // Dejamos un espacio al final para que el siguiente no pegue pegado
 
     // LA MAGIA: Append en lugar de Write
@@ -34,3 +34,4 @@ AUTOR: {cancion.Autor}
     Console.ResetColor();
  }  
  } }
+

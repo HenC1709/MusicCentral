@@ -1,87 +1,2187 @@
 [
   {
-    "Cancion": "rolling in the deep",
-    "Autor": "adele",
-    "FechaDeIngreso": "2026-05-07T21:19:45.0535263-04:00"
+    "Cancion": "Hello",
+    "Autor": "Adele",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Rolling in the Deep",
+    "Autor": "Adele",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Someone Like You",
+    "Autor": "Adele",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Skyfall",
+    "Autor": "Adele",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Set Fire to the Rain",
+    "Autor": "Adele",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Chasing Pavements",
+    "Autor": "Adele",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Make You Feel My Love",
+    "Autor": "Adele",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "When We Were Young",
+    "Autor": "Adele",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Send My Love",
+    "Autor": "Adele",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Water Under the Bridge",
+    "Autor": "Adele",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Million Years Ago",
+    "Autor": "Adele",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Rumour Has It",
+    "Autor": "Adele",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Turning Tables",
+    "Autor": "Adele",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Don't You Remember",
+    "Autor": "Adele",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "One and Only",
+    "Autor": "Adele",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Lovesong",
+    "Autor": "Adele",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "I'll Be Waiting",
+    "Autor": "Adele",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Daydreamer",
+    "Autor": "Adele",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Hometown Glory",
+    "Autor": "Adele",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "My Same",
+    "Autor": "Adele",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Crazy For You",
+    "Autor": "Adele",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Cold Shoulder",
+    "Autor": "Adele",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Right As Rain",
+    "Autor": "Adele",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "First Love",
+    "Autor": "Adele",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Tired",
+    "Autor": "Adele",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Easy On Me",
+    "Autor": "Adele",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Oh My God",
+    "Autor": "Adele",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "I Drink Wine",
+    "Autor": "Adele",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Hold On",
+    "Autor": "Adele",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "To Be Loved",
+    "Autor": "Adele",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Love Is a Game",
+    "Autor": "Adele",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Can I Get It",
+    "Autor": "Adele",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Cry Your Heart Out",
+    "Autor": "Adele",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Strangers By Nature",
+    "Autor": "Adele",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Portrait",
+    "Autor": "Adele",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Woman Like Me",
+    "Autor": "Adele",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "All I Ask",
+    "Autor": "Adele",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "River Lea",
+    "Autor": "Adele",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Love in the Dark",
+    "Autor": "Adele",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Sweetest Devotion",
+    "Autor": "Adele",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "In the End",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
   },
   {
     "Cancion": "Numb",
     "Autor": "Linkin Park",
-    "FechaDeIngreso": "2026-05-07T21:19:45.0596391-04:00"
+    "FechaDeIngreso": "2026-01-01T00:00:00"
   },
   {
-    "Cancion": "faint",
-    "Autor": "Linkin park",
-    "FechaDeIngreso": "2026-05-07T21:19:45.0596476-04:00"
+    "Cancion": "Crawling",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
   },
   {
-    "Cancion": "7 years",
-    "Autor": "Lukas Graham",
-    "FechaDeIngreso": "2026-05-07T21:19:45.0596491-04:00"
+    "Cancion": "Breaking the Habit",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
   },
   {
-    "Cancion": "Never Forget You",
-    "Autor": "Noisettes",
-    "FechaDeIngreso": "2026-05-07T21:19:45.0596507-04:00"
+    "Cancion": "Somewhere I Belong",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
   },
   {
-    "Cancion": "Agarra mi mano",
-    "Autor": "sean paul",
-    "FechaDeIngreso": "2026-05-07T21:19:45.0596549-04:00"
+    "Cancion": "Faint",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
   },
   {
-    "Cancion": "Obstacles",
-    "Autor": "Syd matter",
-    "FechaDeIngreso": "2026-05-07T21:19:45.0596563-04:00"
+    "Cancion": "One Step Closer",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
   },
   {
-    "Cancion": "i was made for love you",
-    "Autor": "KISS",
-    "FechaDeIngreso": "2026-05-07T21:19:45.0596608-04:00"
+    "Cancion": "Papercut",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
   },
   {
-    "Cancion": "Cafune",
-    "Autor": "Micro TDH",
-    "FechaDeIngreso": "2026-05-07T21:19:45.059668-04:00"
+    "Cancion": "Points of Authority",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
   },
   {
-    "Cancion": "De ellos aprendi",
-    "Autor": "David Rees",
-    "FechaDeIngreso": "2026-05-07T21:20:14.9688435-04:00"
+    "Cancion": "With You",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
   },
   {
-    "Cancion": "KOOM, SUSSER TODD",
-    "Autor": "Arianne",
-    "FechaDeIngreso": "2026-05-07T21:51:03.8526151-04:00"
+    "Cancion": "A Place for My Head",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
   },
   {
-    "Cancion": "La Da Dee",
-    "Autor": "Cody Simpson",
-    "FechaDeIngreso": "2026-05-07T21:55:20.0876595-04:00"
+    "Cancion": "By Myself",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
   },
   {
-    "Cancion": "Lost on you",
-    "Autor": "LP",
-    "FechaDeIngreso": "2026-05-07T21:55:44.025576-04:00"
+    "Cancion": "Runaway",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
   },
   {
-    "Cancion": "Love yourself",
-    "Autor": "Justin Bieber",
-    "FechaDeIngreso": "2026-05-07T21:57:10.7572179-04:00"
+    "Cancion": "Pushing Me Away",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Forgotten",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Lying From You",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Easier to Run",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Figure.09",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Nobody's Listening",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "From the Inside",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Burn It Down",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Castle of Glass",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Lost in the Echo",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "In My Remains",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Roads Untraveled",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Victimized",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Powerless",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Final Masquerade",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Guilty All the Same",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Until It's Gone",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Mark the Graves",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "A Line in the Sand",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Heavy",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Nobody Can Save Me",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Battle Symphony",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Sorry for Now",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "One More Light",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Sharp Edges",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Leave Out All the Rest",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Shadow of the Day",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "What I've Done",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Bleed It Out",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Given Up",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "No More Sorrow",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "New Divide",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Waiting for the End",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Iridescent",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "The Catalyst",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "The Messenger",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Blackout",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "When They Come for Me",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Robot Boy",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Wretches and Kings",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Tinfoil",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Good Goodbye",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Invisible",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "In Pieces",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Valentine's Day",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "The Little Things Give You Away",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "With You (Live)",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Session",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Jornada del Muerto",
+    "Autor": "Linkin Park",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Guren no Yumiya",
+    "Autor": "Linked Horizon",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Jiyuu no Tsubasa",
+    "Autor": "Linked Horizon",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Shinzou wo Sasageyo!",
+    "Autor": "Linked Horizon",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Shoukei to Shikabane no Michi",
+    "Autor": "Linked Horizon",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "The Rumbling",
+    "Autor": "SiM",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "My War",
+    "Autor": "Shinsei Kamattechan",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Gurenge",
+    "Autor": "LiSA",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Akeboshi",
+    "Autor": "LiSA",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Zankyosanka",
+    "Autor": "Aimer",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Kizuna no Kiseki",
+    "Autor": "MAN WITH A MISSION",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Kaikai Kitan",
+    "Autor": "Eve",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Vivid Vice",
+    "Autor": "Who-ya Extended",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "KICK BACK",
+    "Autor": "Kenshi Yonezu",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Unravel",
+    "Autor": "TK from Ling Tosite Sigure",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Munou",
+    "Autor": "Ceremonies",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Glassy Sky",
+    "Autor": "Donna Burke",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "again",
+    "Autor": "YUI",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Hologram",
+    "Autor": "NICO Touches the Walls",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Golden Time Lover",
+    "Autor": "Sukima Switch",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Period",
+    "Autor": "CHEMISTRY",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Rain",
+    "Autor": "SID",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "uso",
+    "Autor": "SID",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Cruel Angel's Thesis",
+    "Autor": "Yoko Takahashi",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Tank!",
+    "Autor": "The Seatbelts",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "GO!!",
+    "Autor": "Flow",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Blue Bird",
+    "Autor": "Ikimono-gakari",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Silhouette",
+    "Autor": "KANA-BOON",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Diver",
+    "Autor": "NICO Touches the Walls",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Haruka Kanata",
+    "Autor": "Asian Kung-Fu Generation",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Hero's Come Back",
+    "Autor": "nobodyknows+",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "We Are!",
+    "Autor": "Hiroshi Kitadani",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Believe",
+    "Autor": "Folder5",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Hikari e",
+    "Autor": "The Babystars",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Bon Voyage!",
+    "Autor": "Bon Voyage!",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Share the World",
+    "Autor": "TVXQ",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Fight Together",
+    "Autor": "Namie Amuro",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "We Go!",
+    "Autor": "Hiroshi Kitadani",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Wake Up!",
+    "Autor": "AAA",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Hard Knock Days",
+    "Autor": "GENERATIONS",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Hope",
+    "Autor": "Namie Amuro",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Super Powers",
+    "Autor": "V6",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Dreamin' On",
+    "Autor": "Da-iCE",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "CHA-LA HEAD-CHA-LA",
+    "Autor": "Hironobu Kageyama",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "WE GOTTA POWER",
+    "Autor": "Hironobu Kageyama",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Dragon Soul",
+    "Autor": "Takayoshi Tanimoto",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "The Day",
+    "Autor": "Porno Graffitti",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Peace Sign",
+    "Autor": "Kenshi Yonezu",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Sora ni Utaeba",
+    "Autor": "amazarashi",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Odd Future",
+    "Autor": "UVERworld",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Polaris",
+    "Autor": "Blue Encount",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Star Maker",
+    "Autor": "Ryokuoushoku Shakai",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "No. 1",
+    "Autor": "DISH//",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Footprints",
+    "Autor": "With T",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "crossing field",
+    "Autor": "LiSA",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "IGNITE",
+    "Autor": "Eir Aoi",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Catch The Moment",
+    "Autor": "LiSA",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "The World",
+    "Autor": "Nightmare",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "What's Up People",
+    "Autor": "Maximum the Hormone",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Alumina",
+    "Autor": "Nightmare",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Snow Fairy",
+    "Autor": "FUNKIST",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "R-O-N",
+    "Autor": "IDOLING!!!",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Fiesta",
+    "Autor": "+Plus",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Evidence",
+    "Autor": "Shunichi Miyamoto",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Eternal Journey",
+    "Autor": "Adfax",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Sense of Wonder",
+    "Autor": "WEAVER",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Don't Think. Feel!",
+    "Autor": "Backseat",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Core Pride",
+    "Autor": "UVERworld",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "In My World",
+    "Autor": "ROOKiEZ is PUNK'D",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Black Rover",
+    "Autor": "Vickeblanka",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "haruka mirai",
+    "Autor": "Kono Sekai no Himitsu",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Guess Who Is Back",
+    "Autor": "Kuchiroro",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Sky & Blue",
+    "Autor": "GIRLFRIEND",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Grandeur",
+    "Autor": "Snow Man",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "BLACK CATCHER",
+    "Autor": "Vickeblanka",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Stories",
+    "Autor": "lol",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Everlasting Shine",
+    "Autor": "TOMORROW X TOGETHER",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "against all gods",
+    "Autor": "m-flo",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Asterisk",
+    "Autor": "Orange Range",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "D-tecnoLife",
+    "Autor": "UVERworld",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Ichirin no Hana",
+    "Autor": "High and Mighty Color",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Tonight Tonight Tonight",
+    "Autor": "BEAT CRUSADERS",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Rolling Star",
+    "Autor": "YUI",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "After Dark",
+    "Autor": "Asian Kung-Fu Generation",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Chu-Bura",
+    "Autor": "Kelun",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Velonica",
+    "Autor": "Aqua Timez",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Shoujo S",
+    "Autor": "SCANDAL",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Ranbu no Melody",
+    "Autor": "SID",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Blue",
+    "Autor": "ViViD",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "chAngE",
+    "Autor": "miwa",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Harukaze",
+    "Autor": "SCANDAL",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "departure!",
+    "Autor": "Masatoshi Ono",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "OVER THE TOP",
+    "Autor": "Hiroshi Kitadani",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Hands Up",
+    "Autor": "2PM",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Gasolina",
+    "Autor": "Daddy Yankee",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Lo Que Pasó Pasó",
+    "Autor": "Daddy Yankee",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Rompe",
+    "Autor": "Daddy Yankee",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Impacto",
+    "Autor": "Daddy Yankee",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Llamado de Emergencia",
+    "Autor": "Daddy Yankee",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Machucando",
+    "Autor": "Daddy Yankee",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Corazones",
+    "Autor": "Daddy Yankee",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "La Rompe Corazones",
+    "Autor": "Daddy Yankee",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Shaky Shaky",
+    "Autor": "Daddy Yankee",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Dura",
+    "Autor": "Daddy Yankee",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Con Calma",
+    "Autor": "Daddy Yankee",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Que Tire Pa' Lante",
+    "Autor": "Daddy Yankee",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
   },
   {
     "Cancion": "Limbo",
     "Autor": "Daddy Yankee",
-    "FechaDeIngreso": "2026-05-07T21:57:25.242254-04:00"
+    "FechaDeIngreso": "2026-01-01T00:00:00"
   },
   {
-    "Cancion": "Makes me happy",
-    "Autor": "Drake Bell",
-    "FechaDeIngreso": "2026-05-07T22:00:55.9953393-04:00"
+    "Cancion": "Ella Me Levantó",
+    "Autor": "Daddy Yankee",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
   },
   {
-    "Cancion": "Me muero por ti",
-    "Autor": "sonyk el dragon",
-    "FechaDeIngreso": "2026-05-07T22:01:19.7727692-04:00"
+    "Cancion": "Pose",
+    "Autor": "Daddy Yankee",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "El Partido",
+    "Autor": "Daddy Yankee",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Somos de Calle",
+    "Autor": "Daddy Yankee",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Cuentas Claras",
+    "Autor": "Daddy Yankee",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Lovumba",
+    "Autor": "Daddy Yankee",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Palabras con Poder",
+    "Autor": "Daddy Yankee",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Pobre Diabla",
+    "Autor": "Don Omar",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Dile",
+    "Autor": "Don Omar",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Reggaeton Latino",
+    "Autor": "Don Omar",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Virtual Diva",
+    "Autor": "Don Omar",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Dutty Love",
+    "Autor": "Don Omar",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Zumba",
+    "Autor": "Don Omar",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Hasta Abajo",
+    "Autor": "Don Omar",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Los Ganadores",
+    "Autor": "Don Omar",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "La Neve",
+    "Autor": "Don Omar",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Taboo",
+    "Autor": "Don Omar",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Latigazo",
+    "Autor": "Don Omar",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Sexy Robotica",
+    "Autor": "Don Omar",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Sandunga",
+    "Autor": "Don Omar",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Infinite Love",
+    "Autor": "Don Omar",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Rakata",
+    "Autor": "Wisin y Yandel",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Noche de Sexo",
+    "Autor": "Wisin y Yandel",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Tu Príncipe",
+    "Autor": "Wisin y Yandel",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Follow the Leader",
+    "Autor": "Wisin y Yandel",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Algo Me Gusta de Ti",
+    "Autor": "Wisin y Yandel",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Pegao",
+    "Autor": "Wisin y Yandel",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Sexy Movimiento",
+    "Autor": "Wisin y Yandel",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Abusadora",
+    "Autor": "Wisin y Yandel",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Mirala Bien",
+    "Autor": "Wisin y Yandel",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Mayor que Yo",
+    "Autor": "Wisin y Yandel",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Estoy Enamorado",
+    "Autor": "Wisin y Yandel",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Noche de Sexo (Remix)",
+    "Autor": "Wisin y Yandel",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Quiero Bailar",
+    "Autor": "Ivy Queen",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Yo Quiero Bailar",
+    "Autor": "Ivy Queen",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "La Mala",
+    "Autor": "Ivy Queen",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Dime",
+    "Autor": "Ivy Queen",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Papi te Quiero",
+    "Autor": "Ivy Queen",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Cuéntame",
+    "Autor": "Ivy Queen",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Métele Sazón",
+    "Autor": "Tego Calderón",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "El Abayarde",
+    "Autor": "Tego Calderón",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Pa' Que Retozen",
+    "Autor": "Tego Calderón",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Loíza",
+    "Autor": "Tego Calderón",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Guasa Guasa",
+    "Autor": "Tego Calderón",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Frikitona",
+    "Autor": "Plan B",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "La Quiero",
+    "Autor": "Plan B",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Candy",
+    "Autor": "Plan B",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Party Animal",
+    "Autor": "Plan B",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Piensas en Mi",
+    "Autor": "Nicky Jam",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "El Amante",
+    "Autor": "Nicky Jam",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Travesuras",
+    "Autor": "Nicky Jam",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Hasta el Amanecer",
+    "Autor": "Nicky Jam",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Ven y Hazlo Tú",
+    "Autor": "Arcángel",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Pa' Que la Pases Bien",
+    "Autor": "Arcángel",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "La Cama",
+    "Autor": "Arcángel",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Felinas",
+    "Autor": "Arcángel",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Maldades",
+    "Autor": "Héctor el Father",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Seducción",
+    "Autor": "Héctor el Father",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "No Te Enamores",
+    "Autor": "Jowell y Randy",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Tiburón",
+    "Autor": "Voltio",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Mala y Peligrosa",
+    "Autor": "De La Ghetto",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Culo",
+    "Autor": "Pitbull",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Don't Stop the Party",
+    "Autor": "Pitbull",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "International Love",
+    "Autor": "Pitbull",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Give Me Everything",
+    "Autor": "Pitbull",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Oye Mi Canto",
+    "Autor": "N.O.R.E",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Boricua Morena",
+    "Autor": "Voltio",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Sabor a Melao",
+    "Autor": "Lorna",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Mueve te Mueve",
+    "Autor": "Baby Ranks",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Bandolera",
+    "Autor": "Don Omar",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "El Palo",
+    "Autor": "El Cata",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Patria",
+    "Autor": "Daddy Yankee",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Olvidala",
+    "Autor": "Wisin y Yandel",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Algo Que Nos Pase",
+    "Autor": "Wisin y Yandel",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Noche de Sexo Part. II",
+    "Autor": "Wisin y Yandel",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Agresivo",
+    "Autor": "Wisin y Yandel",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Quisiera Alejarme",
+    "Autor": "Wisin y Yandel",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Hipnotízame",
+    "Autor": "Wisin y Yandel",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Ella y Yo",
+    "Autor": "Don Omar",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Te Busco",
+    "Autor": "Don Omar",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Lucio Maravilla",
+    "Autor": "Tego Calderón",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Quiere pa' Acá",
+    "Autor": "Tego Calderón",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Linda",
+    "Autor": "Plan B",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Chica Ideal",
+    "Autor": "Guaynaa",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "La Factura",
+    "Autor": "Arcángel",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Que Viva La Musica",
+    "Autor": "Héctor el Father",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Sobredosis",
+    "Autor": "Ozuna",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "El Farsante",
+    "Autor": "Ozuna",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Te Robaré",
+    "Autor": "Nicky Jam",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Fenix",
+    "Autor": "Nicky Jam",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Jaleo",
+    "Autor": "Nicky Jam",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Cásate Conmigo",
+    "Autor": "Nicky Jam",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Ginza",
+    "Autor": "J Balvin",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Safari",
+    "Autor": "J Balvin",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "La Luz",
+    "Autor": "J Balvin",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "6 AM",
+    "Autor": "J Balvin",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Ay Vamos",
+    "Autor": "J Balvin",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Tranquila",
+    "Autor": "J Balvin",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Tu y Yo",
+    "Autor": "J Balvin",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Demons",
+    "Autor": "Imagine Dragons",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Radioactive",
+    "Autor": "Imagine Dragons",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Believer",
+    "Autor": "Imagine Dragons",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Thunder",
+    "Autor": "Imagine Dragons",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Natural",
+    "Autor": "Imagine Dragons",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Enemy",
+    "Autor": "Imagine Dragons",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Warriors",
+    "Autor": "Imagine Dragons",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Smoke + Mirrors",
+    "Autor": "Imagine Dragons",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "It's Time",
+    "Autor": "Imagine Dragons",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "On Top of the World",
+    "Autor": "Imagine Dragons",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "I Bet My Life",
+    "Autor": "Imagine Dragons",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Shots",
+    "Autor": "Imagine Dragons",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Gold",
+    "Autor": "Imagine Dragons",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Friction",
+    "Autor": "Imagine Dragons",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Whatever It Takes",
+    "Autor": "Imagine Dragons",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Next to Me",
+    "Autor": "Imagine Dragons",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Rise Up",
+    "Autor": "Imagine Dragons",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Zero",
+    "Autor": "Imagine Dragons",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Bad Liar",
+    "Autor": "Imagine Dragons",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Digital",
+    "Autor": "Imagine Dragons",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Bohemian Rhapsody",
+    "Autor": "Queen",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "We Will Rock You",
+    "Autor": "Queen",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "We Are the Champions",
+    "Autor": "Queen",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Don't Stop Me Now",
+    "Autor": "Queen",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Under Pressure",
+    "Autor": "Queen",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Somebody to Love",
+    "Autor": "Queen",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Radio Ga Ga",
+    "Autor": "Queen",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Another One Bites the Dust",
+    "Autor": "Queen",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Killer Queen",
+    "Autor": "Queen",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "I Want to Break Free",
+    "Autor": "Queen",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Friends Will Be Friends",
+    "Autor": "Queen",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Innuendo",
+    "Autor": "Queen",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "The Show Must Go On",
+    "Autor": "Queen",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "I Was Born to Love You",
+    "Autor": "Queen",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "These Are the Days of Our Lives",
+    "Autor": "Queen",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Smells Like Teen Spirit",
+    "Autor": "Nirvana",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Come as You Are",
+    "Autor": "Nirvana",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Heart-Shaped Box",
+    "Autor": "Nirvana",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Lithium",
+    "Autor": "Nirvana",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "In Bloom",
+    "Autor": "Nirvana",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Polly",
+    "Autor": "Nirvana",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Rape Me",
+    "Autor": "Nirvana",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "All Apologies",
+    "Autor": "Nirvana",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "The Man Who Sold the World",
+    "Autor": "Nirvana",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "About a Girl",
+    "Autor": "Nirvana",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Dumb",
+    "Autor": "Nirvana",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Pennyroyal Tea",
+    "Autor": "Nirvana",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Where Did You Sleep Last Night",
+    "Autor": "Nirvana",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Something in the Way",
+    "Autor": "Nirvana",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "On a Plain",
+    "Autor": "Nirvana",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Billie Jean",
+    "Autor": "Michael Jackson",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Thriller",
+    "Autor": "Michael Jackson",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Beat It",
+    "Autor": "Michael Jackson",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Smooth Criminal",
+    "Autor": "Michael Jackson",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Bad",
+    "Autor": "Michael Jackson",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Man in the Mirror",
+    "Autor": "Michael Jackson",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Black or White",
+    "Autor": "Michael Jackson",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Don't Stop 'Til You Get Enough",
+    "Autor": "Michael Jackson",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Rock With You",
+    "Autor": "Michael Jackson",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Off the Wall",
+    "Autor": "Michael Jackson",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Human Nature",
+    "Autor": "Michael Jackson",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "P.Y.T.",
+    "Autor": "Michael Jackson",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Wanna Be Startin' Somethin'",
+    "Autor": "Michael Jackson",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "The Way You Make Me Feel",
+    "Autor": "Michael Jackson",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Earth Song",
+    "Autor": "Michael Jackson",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Heal the World",
+    "Autor": "Michael Jackson",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Remember the Time",
+    "Autor": "Michael Jackson",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "In the Closet",
+    "Autor": "Michael Jackson",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "You Are Not Alone",
+    "Autor": "Michael Jackson",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Jam",
+    "Autor": "Michael Jackson",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Shape of You",
+    "Autor": "Ed Sheeran",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Perfect",
+    "Autor": "Ed Sheeran",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Thinking Out Loud",
+    "Autor": "Ed Sheeran",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Photograph",
+    "Autor": "Ed Sheeran",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Castle on the Hill",
+    "Autor": "Ed Sheeran",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Galway Girl",
+    "Autor": "Ed Sheeran",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Happier",
+    "Autor": "Ed Sheeran",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Bad Habits",
+    "Autor": "Ed Sheeran",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Overpass Graffiti",
+    "Autor": "Ed Sheeran",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Shivers",
+    "Autor": "Ed Sheeran",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "The A Team",
+    "Autor": "Ed Sheeran",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Lego House",
+    "Autor": "Ed Sheeran",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Drunk",
+    "Autor": "Ed Sheeran",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Don't",
+    "Autor": "Ed Sheeran",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Bloodstream",
+    "Autor": "Ed Sheeran",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Give Me Love",
+    "Autor": "Ed Sheeran",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Sing",
+    "Autor": "Ed Sheeran",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Don't",
+    "Autor": "Ed Sheeran",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "New Man",
+    "Autor": "Ed Sheeran",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Eraser",
+    "Autor": "Ed Sheeran",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Blinding Lights",
+    "Autor": "The Weeknd",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Save Your Tears",
+    "Autor": "The Weeknd",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Starboy",
+    "Autor": "The Weeknd",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Can't Feel My Face",
+    "Autor": "The Weeknd",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "The Hills",
+    "Autor": "The Weeknd",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Earned It",
+    "Autor": "The Weeknd",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "I Feel It Coming",
+    "Autor": "The Weeknd",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Call Out My Name",
+    "Autor": "The Weeknd",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Heartless",
+    "Autor": "The Weeknd",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Pray for Me",
+    "Autor": "The Weeknd",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Often",
+    "Autor": "The Weeknd",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Reminder",
+    "Autor": "The Weeknd",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "False Alarm",
+    "Autor": "The Weeknd",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Party Monster",
+    "Autor": "The Weeknd",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Die For You",
+    "Autor": "The Weeknd",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "In Your Eyes",
+    "Autor": "The Weeknd",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Out of Time",
+    "Autor": "The Weeknd",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Take My Breath",
+    "Autor": "The Weeknd",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Is There Someone Else?",
+    "Autor": "The Weeknd",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Sacrifice",
+    "Autor": "The Weeknd",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Lose Yourself",
+    "Autor": "Eminem",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Stan",
+    "Autor": "Eminem",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "The Real Slim Shady",
+    "Autor": "Eminem",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Without Me",
+    "Autor": "Eminem",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Not Afraid",
+    "Autor": "Eminem",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Love The Way You Lie",
+    "Autor": "Eminem",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Beautiful",
+    "Autor": "Eminem",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Legacy",
+    "Autor": "Eminem",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Rap God",
+    "Autor": "Eminem",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "River",
+    "Autor": "Eminem",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Walk on Water",
+    "Autor": "Eminem",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Godzilla",
+    "Autor": "Eminem",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Till I Collapse",
+    "Autor": "Eminem",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Mockingbird",
+    "Autor": "Eminem",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Cleanin' Out My Closet",
+    "Autor": "Eminem",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Like Toy Soldiers",
+    "Autor": "Eminem",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Kim",
+    "Autor": "Eminem",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Hailie's Song",
+    "Autor": "Eminem",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "25 to Life",
+    "Autor": "Eminem",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
+  },
+  {
+    "Cancion": "Deja Vu",
+    "Autor": "Eminem",
+    "FechaDeIngreso": "2026-01-01T00:00:00"
   }
 ]
