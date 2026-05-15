@@ -12,7 +12,7 @@ public class Usuario
 {
     public string Nombre {get; set;} ="";
     public string ID {get; set;} ="";
-   public Rol Rol { get; set; } = Rol.Usuario;
+    public Rol Rol { get; set; } = Rol.Usuario;
     // como usar json para listas
 public void GuardarUsuario(Usuario NuevoUsuario)
     {

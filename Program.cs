@@ -6,7 +6,7 @@ class Program
 {
     static void Main()
     {
-
+          
         LoginService auth = new LoginService();
         Usuario? usuarioActual = null;
         while (usuarioActual == null)
@@ -14,7 +14,8 @@ class Program
             usuarioActual = auth.iniciarSesion();
         }
         MusicManager manager = new MusicManager();
+       PlaylistManager playlistManager = new PlaylistManager();
 
-        Menu.MostrarMenuUsuario(usuarioActual, manager);
+        Menu.MostrarMenuUsuario(usuarioActual, manager, playlistManager);
     }
 }

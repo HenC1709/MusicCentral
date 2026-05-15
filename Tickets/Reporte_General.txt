@@ -16,3 +16,12 @@ USUARIO: Henry
 CANCION: Me muero por ti
 AUTOR: sonyk el dragon
 ------------------------------------------
+
+==========================================
+        NUEVO REGISTRO DETECTADO
+==========================================
+FECHA: 14/05/2026 20:49:20
+USUARIO: Henry
+CANCION: Silhouette
+AUTOR: Kana-Boom
+-----------------------------------------
