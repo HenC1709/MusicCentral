@@ -14,16 +14,14 @@ namespace Canciones.UI
                 Console.Clear();
                 Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("==== BIENVENIDO A LA CUEVA DE LA MUSICA! ====");
-                Console.WriteLine("2. Buscar Musica");
-                Console.WriteLine("3. Lista de canciones");
-                Console.WriteLine("5. playlists");
+                Console.WriteLine("1. Buscar Musica");
+                Console.WriteLine("2. Lista de canciones");
+                Console.WriteLine("3. playlists");
 
                 if (usuario.Rol == Rol.Admin)
                 {
-                  Console.WriteLine("1. Agregar musica");
-                  Console.WriteLine("3. Lista de canciones");
-                  Console.WriteLine("4. Ver Usuarios");
-                  Console.WriteLine("5. playlists");
+                  Console.WriteLine("4. Agregar musica");
+                  Console.WriteLine("5. Ver Usuarios");
                 }
                 Console.WriteLine("0. Salir");
                 Console.ResetColor();
@@ -38,33 +36,39 @@ namespace Canciones.UI
             switch (opc)
                 {
                     case "1":
-                    if (usuario.Rol == Rol.Admin)
+
+                    manager.BuscarMusica();
+                    break;
+
+                    case "2":
+                    manager.MostrarLista();
+                    break;
+
+                    case "3":
+                    MenuPlaylists(usuario, playlistManager);
+                    break;
+
+                    case "4":
+                       if (usuario.Rol == Rol.Admin)
                         {
                          Console.Write("Canción: "); string t = Console.ReadLine()!;
                          Console.Write("Autor: "); string a = Console.ReadLine()!;
                          manager.AgregarMusica(t, a, usuario.Nombre);
                         }
-                        else {Console.WriteLine("no hay permiso "); }
-                        break;
-
-                    case "2":
-                    manager.BuscarMusica();
-                    break;
-
-                    case "3":
-                    if (usuario.Rol == Rol.Admin) { manager.MostrarLista(); }
-                    else if (usuario.Rol == Rol.Usuario) {manager.MostrarLista();}
-                    else { Console.WriteLine("Si pasaste ambos if, tienes mi respeto xd"); }
-                    break;
-
-                    case "4":
-                    if (usuario.Rol == Rol.Admin) { Usuario.VerUsuarios(); }
-                    else {Console.WriteLine("No tienes permiso we "); }
-                    break;
+                        else {Console.WriteLine("no hay permiso ");}
+                      break;
                     
                     case "5":
-                    MenuPlaylists(usuario, playlistManager);
-                    break;
+                    if (usuario.Rol == Rol.Admin)
+                       {
+                       Usuario.VerUsuarios();
+                        }
+                      else
+                       {
+                   Console.WriteLine("No tienes permiso.");
+                       }
+                   break;
+                    
 
                     case "0":
                     Console.WriteLine("Saliendo de la cueva... ");
@@ -73,7 +77,7 @@ namespace Canciones.UI
                     default:
                     Console.WriteLine("Opcion no valida. ");
                     break;
-                }
+                 }
                 if (opc != "0")
                 {
                     Console.ForegroundColor = ConsoleColor.DarkBlue;

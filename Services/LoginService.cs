@@ -1,8 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text.Json;
 using Canciones.Models;
 
 namespace Canciones.Services
@@ -10,8 +5,7 @@ namespace Canciones.Services
     public class LoginService
     {
         // La ruta hacia tu carpeta de datos protegida
-        private string ruta = Path.Combine("Data", "BaseDeUsuarios.json");
-
+        private AuthService _authService = new AuthService();
         public Usuario? iniciarSesion()
         {
            
@@ -41,31 +35,23 @@ namespace Canciones.Services
              Console.Write("➤ ID de Acceso: ");
             string contra = Console.ReadLine()?.Trim() ?? "";
 
-            if (!File.Exists(ruta)) return null;
+            Usuario? user = _authService.IniciarSesion(nombre, contra);
 
-              try 
-            {
-                string contenido = File.ReadAllText(ruta);
-                var listaUsuarios = JsonSerializer.Deserialize<List<Usuario>>(contenido);
-                var user = listaUsuarios?.FirstOrDefault(u => u.Nombre.Equals(nombre, StringComparison.OrdinalIgnoreCase));
+           if (user != null)
+             {
+             Console.ForegroundColor = ConsoleColor.Green;
+             Console.WriteLine($"\n[OK] ¡Acceso concedido! Bienvenido, {user.Nombre}.");
 
-                if (user != null && user.ID == contra)
-                {
-                        Console.ForegroundColor = ConsoleColor.Green;
-                        Console.WriteLine($"\n[OK] ¡Acceso concedido! Bienvendo, {user.Nombre}.");
-                        Thread.Sleep(1200);
-                        return user;
-                }
-                 Console.ForegroundColor = ConsoleColor.DarkRed;
-              Console.WriteLine("\n[X] Datos incorrectos o usuario inexistente.");
-           }
-            catch (Exception ex)
-            {
-                Console.WriteLine("Error: " + ex.Message);
+            Thread.Sleep(1200);
+
+            return user;
             }
 
-            Thread.Sleep(1500);
-            return null!;
+             Console.ForegroundColor = ConsoleColor.DarkRed;
+             Console.WriteLine("\n[X] Datos incorrectos o usuario inexistente.");
+
+             Thread.Sleep(1500);
+             return null;
         }
-    }
+     }
  }
