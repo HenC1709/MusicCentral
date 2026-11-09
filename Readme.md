@@ -1,25 +1,12 @@
-# 🎵 Music Central — V2 Playlist Update
+# 🎵 Music Central — Arquitectura & Camino a SQL
 
 ## 🚀 Evolución del Proyecto
 
-El proyecto comenzó como una aplicación de consola en C# enfocada en la gestión básica de canciones y usuarios.
-
-La primera versión (V1) ya contaba con:
-
-- Sistema de Login
-- Registro de usuarios
-- Roles (`Admin` / `Usuario`)
-- Persistencia con JSON
-- Gestión de canciones
-- Búsqueda de canciones
-- Sistema de tickets/logs
-- Menú interactivo en consola
-
-Con esta actualización, el proyecto evoluciona hacia una arquitectura más modular y cercana a una aplicación real de gestión musical.
+El proyecto comenzó como una aplicación de consola en C# enfocada en la gestión básica de canciones y usuarios con persistencia en archivos JSON.
 
 ---
 
-# 🧱 Arquitectura Actual
+# 🧱 Arquitectura Actual (Preparada para SQL)
 
 ```text
 Canciones/
@@ -27,7 +14,18 @@ Canciones/
 ├── Data/
 │   ├── BaseDeUsuarios.json
 │   ├── CancionesAgregadas.json
-│   └── Playlists.json
+│   ├── Playlist.json
+│   └── Repositories/
+│       ├── ICancionRepository.cs
+│       ├── IUsuarioRepository.cs
+│       ├── IPlaylistRepository.cs
+│       ├── Json/
+│       │   ├── JsonCancionRepository.cs
+│       │   ├── JsonUsuarioRepository.cs
+│       │   └── JsonPlaylistRepository.cs
+│       └── Sql/
+│           ├── README_SQL.md            <-- DDL y guía de migración
+│           └── SqlRepositoryBlueprint.cs <-- Plantilla de implementación SQL
 │
 ├── Logic/
 │   └── TicketManager.cs
@@ -38,6 +36,7 @@ Canciones/
 │   └── Playlist.cs
 │
 ├── Services/
+│   ├── AuthService.cs
 │   ├── LoginService.cs
 │   ├── MusicManager.cs
 │   └── PlaylistManager.cs
@@ -50,96 +49,111 @@ Canciones/
 
 ---
 
-# 🔧 V2 Refactor Update
+## 🐛 Bugs Detectados y Corregidos en Código (con comentarios explicativos)
 
-Durante el desarrollo de la V2, el proyecto comenzó a crecer en complejidad debido a:
-
-- múltiples sistemas
-- persistencia JSON
-- roles
-- playlists
-- autenticación
-- lógica separada
-
-Esto llevó a iniciar un proceso gradual de refactorización y separación de responsabilidades.
-
----
-
-## ✅ Nuevos Cambios Arquitectónicos
-
-### 🔐 AuthService
-Se creó un nuevo servicio dedicado exclusivamente a la autenticación de usuarios.
-
-Responsabilidades:
-- validar credenciales
-- iniciar sesión
-- lectura de usuarios para autenticación
-
-Esto permitió desacoplar la lógica de login del sistema UI.
+1. **Bug Crítico en `PlaylistManager.cs` (Doble negación `!!`)**:
+   - `if (!!string.IsNullOrEmpty(contenido))` provocaba que cuando `Playlist.json` tenía canciones, la condición evaluara a `false`, por lo que **nunca se cargaban las playlists existentes**. Y si estaba vacío, intentaba deserializar texto vacío arrojando excepción.
+   - *Solución:* Se corrigió a `if (!string.IsNullOrWhiteSpace(contenido))`.
+2. **Bug de Búsqueda Vacía en `MusicManager.cs`**:
+   - Al presionar Enter en blanco, `"".Contains("")` siempre devolvía la primera canción de la lista como encontrada.
+   - *Solución:* Validación de cadenas vacías/espacios y retorno de lista completa de coincidencias.
+3. **Falta de Validación de Directorio `Data/`**:
+   - `File.WriteAllText` lanzaba `DirectoryNotFoundException` si el directorio `Data` no existía previamente.
+   - *Solución:* Verificación y creación automática (`Directory.CreateDirectory`).
+4. **Violación SRP en `Usuario.cs`**:
+   - El modelo de datos leía/escribía archivos JSON y capturaba entrada de consola (`Console.ReadLine`).
+   - *Solución:* Se separó la persistencia en `IUsuarioRepository` y se limpió el modelo POCO.
+5. **Inconsistencia de Validación en ID**:
+   - El mensaje indicaba "(máximo 4)", pero el código requería exactamente 4 números. Se sincronizó el mensaje y la validación.
+6. **Convenciones de Nombres C# y Archivos**:
+   - `Models/Musicas.cs` renombrado a `Models/Musica.cs`.
+   - `Services/AuthServices.cs` renombrado a `Services/AuthService.cs`.
+   - Métodos y propiedades en minúscula (`iniciarSesion`, `playlists`) ajustados a PascalCase (`IniciarSesion`, `Playlists`).
 
 ---
 
-## 📂 Playlist System Improvements
+# 🗄️ Camino Trazado: De JSON a SQL
 
-Se integró:
-- `Playlist.cs`
-- `PlaylistManager.cs`
-- `Playlists.json`
+Para evitar sobreingeniería pero dejar el camino totalmente listo:
 
-Con soporte para:
-- crear playlists
-- agregar canciones
-- visualizar playlists
-- persistencia automática
+1. **Patrón Repositorio (`IRepository`)**:
+   - Los servicios (`MusicManager`, `PlaylistManager`, `AuthService`) ya no interactúan con archivos JSON directos, sino con interfaces (`ICancionRepository`, `IUsuarioRepository`, `IPlaylistRepository`).
+2. **Entidades con Llaves Primarias**:
+   - Modelos (`Musica`, `Playlist`, `Usuario`) incorporan la propiedad `Id` (PK) sin romper la deserialización de los JSON actuales.
+3. **Migración a SQL sin tocar la lógica de negocio**:
+   - Para cambiar a SQL Server, SQLite o PostgreSQL, solo se crea la clase `SqlCancionRepository : ICancionRepository` y en `Program.cs` se cambia una línea:
+   ```csharp
+   // Antes (JSON):
+   ICancionRepository cancionRepo = new JsonCancionRepository();
 
----
+   // Después (SQL):
+   ICancionRepository cancionRepo = new SqlCancionRepository(cadenaConexion);
+   ```
+4. Consulta `Data/Repositories/Sql/README_SQL.md` para el script DDL con las tablas normalizadas (`Usuarios`, `Canciones`, `Playlists`, `PlaylistCanciones`).
+# 📘 Arquitectura del Proyecto & Guía de Migración
 
-## 🧠 Mejora del Menú Principal
+## 🎯 Resumen de la Refactorización
 
-El menú fue reorganizado para:
-- evitar opciones duplicadas
-- mejorar separación por roles
-- mejorar navegación
-
-Usuarios normales y administradores ahora visualizan diferentes opciones de forma más limpia.
-
-***
-
-## ⚠️ Arquitectura Actual
-
-El proyecto actualmente se encuentra en transición hacia una estructura más modular.
-
-Se identificó que algunas clases poseen demasiadas responsabilidades, especialmente:
-
-- `Usuario`
-
-Esto será mejorado progresivamente en futuras versiones mediante:
-- `UsuarioService`
-- separación UI/lógica
-- validaciones dedicadas
+Este proyecto ha sido refactorizado para separar responsabilidades mediante el **Patrón Repositorio**, corrigiendo bugs críticos de persistencia y dejando el camino preparado para evolucionar de almacenamiento **JSON** a una base de datos relacional **SQL** sin sobreingeniería.
 
 ---
 
-# 🛣️ Próximos Objetivos
+## 🏗️ Diagrama de Arquitectura
 
-## 🔥 V2.5
-- conectar playlists con canciones reales
-- validaciones avanzadas
-- evitar canciones inexistentes
+```
+[UI: Menu / LoginService]
+        │
+        ▼
+[Services: MusicManager / PlaylistManager / AuthService]
+        │
+        ▼
+[Data Abstractions: ICancionRepository / IUsuarioRepository / IPlaylistRepository]
+       /                                                        \
+      ▼                                                          ▼
+[Json Repositories (ACTIVO)]                               [Sql Repositories (FUTURO)]
+  - JsonCancionRepository                                    - SqlCancionRepository
+  - JsonUsuarioRepository                                    - SqlUsuarioRepository
+  - JsonPlaylistRepository                                   - SqlPlaylistRepository
+```
 
 ---
 
-## 🔥 V3
-- favoritos
-- shuffle
-- filtros
-- paginación
-- estadísticas
+## 🐛 Bugs Resueltos y Señalizados en Código
+
+1. **`PlaylistManager.cs` - Doble Negación (`!!`)**:
+   - `if (!!string.IsNullOrEmpty(contenido))` causaba que las playlists existentes nunca se cargaran desde `Playlist.json`.
+   - *Solución:* Corregido a `if (!string.IsNullOrWhiteSpace(contenido))`.
+2. **`MusicManager.cs` - Búsqueda en Blanco**:
+   - `"".Contains("")` coincidía con todas las canciones, devolviendo falsos positivos al presionar Enter sin texto.
+   - *Solución:* Validación de cadenas vacías y retorno de todas las coincidencias.
+3. **Persistencia - Falta de Directorio `Data/`**:
+   - `File.WriteAllText` arrojaba excepción si la carpeta `Data` no existía en el entorno.
+   - *Solución:* Creación automática preventiva del directorio antes de escribir.
+4. **`Usuario.cs` - Violación SRP**:
+   - El modelo mezclaba captura de consola, deserialización y guardado en archivo.
+   - *Solución:* Modelo convertido en POCO; persistencia delegada a `IUsuarioRepository`.
+5. **`PlaylistManager.cs` - Integridad Referencial**:
+   - Se podían agregar canciones ficticias o inexistentes a las playlists.
+   - *Solución:* Conexión con `ICancionRepository` para validar que la canción exista en el catálogo (preparación para Foreign Keys en SQL).
 
 ---
 
-## 🔥 V3.5
-- refactor completo de arquitectura
-- separación de persistencia
-- interfaces
-- diseño más escalable
+## 🗄️ Transición a SQL en 2 Pasos
+
+1. **Crear las tablas en SQL**:
+   Ejecutar el script DDL ubicado en `Data/Repositories/Sql/README_SQL.md` (`Usuarios`, `Canciones`, `Playlists`, `PlaylistCanciones`).
+
+2. **Reemplazar la inyección en `Program.cs`**:
+   ```csharp
+   // Reemplazar:
+   ICancionRepository cancionRepo   = new JsonCancionRepository();
+   IUsuarioRepository usuarioRepo   = new JsonUsuarioRepository();
+   IPlaylistRepository playlistRepo = new JsonPlaylistRepository();
+
+   // Por:
+   ICancionRepository cancionRepo   = new SqlCancionRepository(cadenaConexion);
+   IUsuarioRepository usuarioRepo   = new SqlUsuarioRepository(cadenaConexion);
+   IPlaylistRepository playlistRepo = new SqlPlaylistRepository(cadenaConexion);
+   ```
+   **Ningún servicio, menú ni lógica de la aplicación requerirá cambios.**
+

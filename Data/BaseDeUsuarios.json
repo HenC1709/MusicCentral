@@ -1,37 +1,56 @@
 [
   {
+    "Id": 0,
     "Nombre": "Henry",
     "ID": "1709",
     "Rol": 1
   },
   {
+    "Id": 0,
     "Nombre": "Miguel",
     "ID": "0103",
     "Rol": 0
   },
   {
+    "Id": 0,
     "Nombre": "luis",
     "ID": "0502",
     "Rol": 0
   },
   {
+    "Id": 0,
     "Nombre": "Marcos",
     "ID": "5203",
     "Rol": 0
   },
   {
+    "Id": 0,
     "Nombre": "mannie",
     "ID": "5020",
     "Rol": 0
   },
   {
+    "Id": 0,
     "Nombre": "jose",
     "ID": "1000",
     "Rol": 0
   },
   {
+    "Id": 0,
     "Nombre": "Claudia",
     "ID": "5015",
+    "Rol": 0
+  },
+  {
+    "Id": 0,
+    "Nombre": "",
+    "ID": "",
+    "Rol": 0
+  },
+  {
+    "Id": 0,
+    "Nombre": "logan",
+    "ID": "1020",
     "Rol": 0
   }
 ]
